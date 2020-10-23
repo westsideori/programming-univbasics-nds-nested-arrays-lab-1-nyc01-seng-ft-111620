@@ -34,6 +34,7 @@ def sorted_matrix
   # However, this time, sort each internal array alphabetically by the first character
   tidy_array = []
   sorted_conventional = CONVENTIONAL_PRODUCE.sort
+  binding.pry
   sorted_organic = ORGANIC_PRODUCE.sort
   tidy_array.push(CONVENTIONAL_PRODUCE)
   tidy_array.push(ORGANIC_PRODUCE)
