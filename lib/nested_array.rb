@@ -24,6 +24,7 @@ def assembled_matrix
   assembled_array = []
   assembled_array.push(ORGANIC_PRODUCE)
   assembled_array.push(CONVENTIONAL_PRODUCE)
+  assembled_array
 end
 
 def sorted_matrix
