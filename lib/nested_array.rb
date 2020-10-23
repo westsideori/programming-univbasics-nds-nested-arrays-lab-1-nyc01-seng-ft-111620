@@ -36,8 +36,8 @@ def sorted_matrix
   sorted_conventional = CONVENTIONAL_PRODUCE.sort
   binding.pry
   sorted_organic = ORGANIC_PRODUCE.sort
-  tidy_array.push(CONVENTIONAL_PRODUCE)
-  tidy_array.push(ORGANIC_PRODUCE)
+  tidy_array.push(stored_conventional)
+  tidy_array.push(stored_organic)
   tidy_array
 end
 
